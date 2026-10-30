@@ -1,8 +1,32 @@
-abbreviation: PHY
-description: Reference catalog for Physical Resource entities. Bootstrapped from dea-metaframework/tools/catalog-repo-template/.
+# Metamodel Pointer — Physical Resource
+#
+# Two consumers, two blocks (see FOUNDATIONS §5):
+#   - the top-level identity keys are consumed by the vendored
+#     regenerate_catalog.py to build CATALOG.yaml's catalog block;
+#   - the `metamodel:` allocation block is validated by
+#     dea-architecture-framework validate-against-model.yml
+#     against the pinned root-model ref (v0.8.0), and asserted
+#     locally by scripts/check_pointer.py.
+#
+# Allocation changes go through the root model, not this file.
 id: dea:catalog-physical-resources
-metamodel_version: 1.0.0
 name: Physical Resource
-owner: TechNeHub Labs
-status: active
+abbreviation: PHR
 version: 0.1.0
+status: active
+metamodel_version: 1.0.0
+owner: TechNeHub Labs
+description: |
+  Tangible assets requiring an ongoing maintenance regime (equipment, vehicles, premises, inventory stock). Catalog instances include an oven, a van, a warehouse shelf.
+metamodel:
+  building_block: L3-resources
+  class_alias: PHR
+  entity_id: dea:entity-physical-resource
+  layer: L3
+  version: v0.8.0
+  viewer_url: https://technehub-labs.github.io/metamodel/?entity=PHR
+links:
+  metamodel_repo: https://github.com/technehub-labs/dea-metamodel
+  root_model: https://github.com/technehub-labs/dea-architecture-framework
+  viewer: https://technehub-labs.github.io/metamodel/?entity=PHR
+  github: https://github.com/technehub-labs/dea-catalog-physical-resources
