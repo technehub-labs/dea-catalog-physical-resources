@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this catalog, please cite it using the metadata from this file."
+type: dataset
+title: "Physical Resource"
+id: "dea:catalog-physical-resources"
+authors:
+  - name: "TechNeHub Labs"
+repository-code: "https://github.com/technehub-labs/dea-catalog-physical-resources"
+license: Apache-2.0

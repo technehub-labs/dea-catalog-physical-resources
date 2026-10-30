@@ -1,0 +1,8 @@
+abbreviation: PHY
+description: Reference catalog for Physical Resource entities. Bootstrapped from dea-metaframework/tools/catalog-repo-template/.
+id: dea:catalog-physical-resources
+metamodel_version: 1.0.0
+name: Physical Resource
+owner: TechNeHub Labs
+status: active
+version: 0.1.0
