@@ -1,0 +1,27 @@
+catalog:
+  abbreviation: PHR
+  counts:
+    candidates: 0
+    canonical: 0
+    entities: 0
+    open_change_requests: 0
+    research_files: 0
+    retired: 0
+  cross_cutting:
+    change_requests: change-requests/
+    classifications: classifications/
+    contributions_queue: contributions/
+    schemas: schemas/
+    validators: scripts/
+  description: 'Tangible assets requiring an ongoing maintenance regime (equipment, vehicles, premises, inventory stock). Catalog instances include an oven, a van, a warehouse shelf.
+
+    '
+  entities: []
+  id: dea:catalog-physical-resources
+  metamodel_version: 1.0.0
+  name: Physical Resource
+  owner: TechNeHub Labs
+  repository: https://github.com/technehub-labs/dea-catalog-physical-resources.git
+  research_registers: []
+  status: active
+  version: 0.1.0
